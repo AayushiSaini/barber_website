@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+}
+#banner{
+    background:linear-gradient(rgba(93, 196, 207, 0.5),#009688),url(hair-salon.jpg);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+.logo{
+    height: 100;
+    width: 100;
+    align-items: left;
+    top:10%;
+    left: 10%;
+}
+.first{
+    text-align: left;
+    color: aliceblue;
+}
+.banner-text{
+    color: aliceblue;
+    padding-top: 180px;
+    padding-left: 450px;
+}
+.banner-text h1{
+    font-size: 100px;
+    font-family: cursive;
+}
+.banner-text p{
+    font-size: 30px;
+    padding-left: 80px;
+    font-family: cursive;
+}
+.button a{
+    padding-left: 10px 0;
+    text-decoration: none;
+    margin:0 10px ;
+    width: 150px;
+    display: inline-block;
+    color: aliceblue;
+    border: 1px solid rgb(231, 233, 239);
+    font-family: cursive;
+    position: relative;
+    z-index: 1;
+    
+}
+.button a span{
+    width: 50%;
+    height: 100%px;
+    top:0;
+    left:0;
+    background-color: #003c96;
+    position: absolute;
+    z-index: -1;
+    transition: 0.5s;
+
+
+}
+.button a:hover span{
+    width: 100%;
+}
+#sidebar{
+    width:150px;
+    height: 800px;
+    position: fixed;
+    right:0;
+    top:0;
+    background-color:rgb(57, 160, 229) ;
+    z-index: 2;
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+    font-family: cursive;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+#manubtn{
+    width:50px;
+    height:50px;
+    background:blue;
+    text-align: center;
+    position: fixed;
+    right:30px 
+   border-radius: 3px;
+   z-index: 3;
+   cursor: pointer;
+}
