@@ -2,6 +2,10 @@
     margin: 0;
     padding:0;
 }
+.button{
+    text-align: center;
+    text-decoration: solid;
+}
 #banner{
     background:linear-gradient(rgba(93, 196, 207, 0.5),#009688),url(hair-salon.jpg);
     background-size:cover;
@@ -87,8 +91,8 @@ nav ul li a{
     background:blue;
     text-align: center;
     position: fixed;
-    right:30px 
-   border-radius: 3px;
-   z-index: 3;
+    right:30px;
+    border-radius: 3px;
+    z-index: 3;
    cursor: pointer;
 }
